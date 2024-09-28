@@ -1,35 +1,8 @@
-.container {
-  display: flex;
-  height: 100vh; /* Đảm bảo chiều cao toàn màn hình */
-  align-items: center;
-  justify-content: space-around; /* Tạo khoảng cách cân đối giữa ảnh và form */
-  background-color: #f5f5f5;
-}
-
-.image-section {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #232a47;
-  padding: 20px;
-}
-
-.signup-form {
-  flex: 1;
-  max-width: 400px; /* Giới hạn chiều rộng form */
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* src/App.css */
 .app-container {
   display: flex;
-  justify-content: space-between; /* Giữa form và hình ảnh */
-  align-items: center;
-  height: 100vh; /* Chiều cao toàn trang */
-  padding: 0 5rem; /* Khoảng cách giữa các cạnh */
-  background-color: #f8f9fa; /* Màu nền trắng nhẹ */
+  height:auto;
+  align-items: center; 
+  justify-content: center; 
+  background-color: #f5f5f5;
+
 }

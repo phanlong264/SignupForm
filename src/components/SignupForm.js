@@ -1,5 +1,5 @@
 import React from 'react';
-import './SignupForm.css'; // Nếu có file CSS riêng cho SignupForm
+import './SignupForm.css'; // CSS file for the form
 
 const SignupForm = () => {
   return (
@@ -8,7 +8,7 @@ const SignupForm = () => {
       <input type="text" placeholder="Số điện thoại" className="input-field" />
       <input type="password" placeholder="Mật khẩu" className="input-field" />
       <input type="password" placeholder="Nhập lại mật khẩu" className="input-field" />
-      <button className="signup-button">Đăng Ký</button>
+      <button className="signup-button">Đăng Ký</button>  
       <p>Đã có tài khoản? <a href="#">Đăng nhập</a></p>
     </div>
   );

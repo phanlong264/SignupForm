@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css';
-import SignupForm from './components/SignupForm';
 import ImageSection from './components/ImageSection';
+import SignupForm from './components/SignupForm';
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
+    <div className="app-container">
       <ImageSection />
       <SignupForm />
     </div>
   );
-}
+};
 
 export default App;

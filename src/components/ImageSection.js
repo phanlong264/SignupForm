@@ -1,5 +1,5 @@
 import React from 'react';
-import './ImageSection.css'; // Nếu có file CSS riêng cho ImageSection
+import './ImageSection.css'; 
 
 const ImageSection = () => {
   return (

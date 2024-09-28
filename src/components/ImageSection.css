@@ -1,0 +1,16 @@
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232a47; /* Nền tối */
+    height: 100vh;
+  }
+  
+  .illustration {
+    width: 80%; /* Điều chỉnh kích thước hình ảnh */
+    height: auto;
+    max-width: 500px; /* Giới hạn chiều rộng tối đa */
+  }
+  
+  
